@@ -1,7 +1,205 @@
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KExcOPIDU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tLR8a8zI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /*Universal Code */
+body {
+  font-size: 16px;
+  max-width: 1200px;
+}
+h2 {
+  font-family: "PTSans-Bold",sans-serif;
+  font-size: 2em;
+  color: rgb(68 68 68);
+}
+h3 {
+  font-family: "PTSans-Regular", sans-serif;
+  color: rgb(68 68 68);
+}
+h4 {
+  font-family: "PTSans-Bold", sans-serif;
+  color: rgb(68 68 68);
+  font-size: 1.5em;
+}
+p {
+  font-family: "PTSans-Regular", sans-serif;
+  color: rgb(68 68 68);
+}
+#readmore {
+  font-family: "PTSans-Regular", sans-serif;
+}
 /*Header*/
+.header {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  background-color: rgb(255 255 255);
+}
+.logo {
+  margin-left: 24px;
+}
+.navbar {
+  margin-left: 520px;
+  margin-right:24px;
+}
+.navbar ul {
+  display: flex;
+}
+.campus  {
+  margin-right: 16px;
+}
+.online {
+  margin-right: 16px;
+}
+.navbar {
+  font-size: 1.15em;
+  font-family: "PTSans-Regular",sans-serif;
+}
+.header .logo {
+  flex-grow: .4;
+  width: 24px;
+}
+.header .title1 {
+  font-family: "PTSans-Bold", sans-serif;
+  font-size: 2em;
+  color: rgb(68 68 68);
+}
+.header .title2 {
+  font-family: "PTSans-Regular", sans-serif;
+  font-size: 2em;
+  color: rgb(128 128 128);
+}
 /*Learn Something*/
+.learn {
+  font-family: "PTSans-Bold",sans-serif;
+  color: rgb(68 68 68);
+  font-size: 2.5em;
+}
+.banner2-para {
+  font-family: "PTSans-Regular",sans-serif;
+  color: rgb(68 68 68);
+  font-size: 1.5em;
+}
+.large-container1 {
+  position: relative;
+  top: 64px;
+  display: flex;
+  height: 600px;
+  width: 1150px;
+  background-color: rgb(212 212 212);
+  align-items: center;
+  overflow: hidden;
+}
+.large-container1 .banner-img {
+  height: auto;
+  width: 60%;
+  margin: 32px 24px;
+}
+.banner2 {
+  margin-left: 24px;
+  margin-right: 50px;
+}
+.start-btn {
+  height: 32px;
+  color: rgb(255 255 255);
+  background-color: rgb(68 68 68);
+  padding-left: 130px;
+  padding-top: 10px;
+  font-family: "PTSans-Regular",sans-serif;
+}
 /*It Doesn't Hurt*/
+.large-container2 {
+  position: relative;
+  top: 63px;
+  display: flex;
+  height:600px;
+  overflow: hidden;
+}
+.large-container2 .info-image {
+  width: 90%;
+  height: auto;
+  margin: 32px 24px;
+}
+.info-verbage {
+  margin-bottom: 32px;
+  margin-left: 24px;
+  display: inline-block;
+  width: 600px;
+}
+.row1 {
+  display: inline-flex;
+  height: 169px;
+}
+.row1-verbage {
+  color: rgb(68 68 68);
+  position: relative;
+  top: 30px;
+  left: 20px;
+  height: 100px;
+  width: 400px;
+}
+.orientation-image  {
+  width: 30%;
+  height: auto;
+  margin: 22px 14px;
+}
+.row2 {
+  display: inline-flex;
+  height: 169px;
+}
+.row2-verbage {
+  color: rgb(68 68 68);
+  position: relative;
+  top: 30px;
+  left: 20px;
+  height: 100px;
+  width: 400px;
+}
+.campus-image  {
+  width: 30%;
+  height: auto;
+  margin: 22px 14px;
+}
+.row3 {
+  display: inline-flex;
+  height: 164px;
+  background-color: rgb(212 212 212);
+}
+.row3-verbage {
+  color: rgb(68 68 68);
+  position: relative;
+  top: 30px;
+  left: 20px;
+  height: 100px;
+  width: 400px;
+}
+.lecture-image  {
+  width: 30%;
+  height: auto;
+  margin: 22px 14px;
+}
 /*Start Learning*/
+.large-container3 {
+  border: solid red 2px;
+  position: relative;
+  top:62px;
+  background-color: rgb(232 232 232);
+}
 /*Thesis Exhibit*/
 /*Footer*/
