@@ -26,7 +26,7 @@ h2 {
   color: rgb(68 68 68);
 }
 h3 {
-  font-family: "PTSans-Regular", sans-serif;
+  font-family: "PTSans-Bold",sans-serif;
   color: rgb(68 68 68);
 }
 h4 {
@@ -200,6 +200,73 @@ p {
   position: relative;
   top:62px;
   background-color: rgb(232 232 232);
+}
+.learning-header {
+  margin: 32px;
+  position: relative;
+  left: 500px;
+}
+.coursesrow1 {
+  display: flex;
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-bottom: 32px;
+}
+.course1-image {
+  width: 100%;
+  height: auto;
+}
+.course2-image {
+  width: 90%;
+  height: auto;
+}
+.course3-image {
+  width: 100%;
+  height: auto;
+}
+.course2 {
+  margin-left: 32px;
+}
+.class-title {
+  font-size: 1.5em;
+  margin-top: 16px;
+}
+.courses {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.class-info {
+  width: 70%;
+}
+.course1 {
+  background-color: rgb(255 255 255);
+}
+.course2 {
+    background-color: rgb(255 255 255);
+}
+.coursesrow2 {
+  display: flex;
+  margin-left: 72px;
+  margin-right: 72px;
+  margin-bottom: 32px;
+}
+.course4-image {
+  width: 100%;
+  height: auto;
+}
+.course5-image {
+  width: 100%;
+  height: auto;
+}
+.course6-image {
+  width: 100%;
+  height: auto;
+}
+.course5 {
+  margin-left: 32px;
+}
+.course6 {
+  margin-left: 32px;
 }
 /*Thesis Exhibit*/
 /*Footer*/
