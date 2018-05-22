@@ -226,6 +226,7 @@ p {
 }
 .course2 {
   margin-left: 32px;
+
 }
 .class-title {
   font-size: 1.5em;
@@ -241,8 +242,26 @@ p {
 .course1 {
   background-color: rgb(255 255 255);
 }
+.hidden {
+  visibility: hidden;
+}
+.class-title, .class-info {
+  margin-left: 16px;
+}
 .course2 {
+  background-color: rgb(255 255 255);
+}
+.course3 {
+  background-color: rgb(255 255 255);
+}
+.course4 {
     background-color: rgb(255 255 255);
+}
+.course5 {
+  background-color: rgb(255 255 255);
+}
+.course6 {
+  background-color: rgb(255 255 255);
 }
 .coursesrow2 {
   display: flex;
