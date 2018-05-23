@@ -196,7 +196,6 @@ p {
 }
 /*Start Learning*/
 .large-container3 {
-  border: solid red 2px;
   position: relative;
   top:62px;
   background-color: rgb(232 232 232);
@@ -204,7 +203,7 @@ p {
 .learning-header {
   margin: 32px;
   position: relative;
-  left: 500px;
+  left: 450px;
 }
 .coursesrow1 {
   display: flex;
@@ -226,7 +225,6 @@ p {
 }
 .course2 {
   margin-left: 32px;
-
 }
 .class-title {
   font-size: 1.5em;
@@ -288,4 +286,77 @@ p {
   margin-left: 32px;
 }
 /*Thesis Exhibit*/
+.large-container4 {
+  display: flex;
+  position: relative;
+  top: 30px;
+  height: 600px;   /*delete*/
+}
+.thesis-header {
+  position: relative;
+  top: 20px;
+  left: 440px;
+  margin: 35px;
+}
+.thesis-column1 {
+  position: relative;
+  top: 91px;
+  right: 160px;
+  margin: 32px 24px;
+}
+.thesis-column1 video {
+  width: 100%;
+  height: auto;
+}
+.reimagine-header {
+  margin-top: 24px;
+  font-size: 1.3em;
+}
+.thesis-verbage {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  color: rgb(92 92 92);
+  font-size: 1.1em;
+}
+.thesis-column2 {
+  position: relative;
+  right: 161px;
+  top: 123px;
+  width: 150%;
+}
+.thesis-row1 {
+  display: inline-flex;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(212 212 212);
+}
+.thesis-image {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+.fisma-header {
+  font-size: 1.3em;
+  padding-top: 40px;
+}
+.designer {
+  font-size: 1.1em;
+}
+.thesis-row2{
+  display: inline-flex;
+  width: 100%;
+  height: 200px;
+}
+.nyc-image {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+.nyc-header {
+  font-size: 1.3em;
+  padding-top: 70px;
+}
+.research {
+  font-size: 1.1em;
+}
 /*Footer*/
